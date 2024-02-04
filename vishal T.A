@@ -1,0 +1,31 @@
+---------------------        ---------------------
+|        TV         |        |      LedTV        |
+---------------------        ---------------------
+| - brand: str      |        | - screen_thickness: int
+| - channel: int    |        | - energy_usage: int
+| - price: float    |        | - lifespan: int
+| - inches: int     |        | - refresh_rate: int
+| - on: bool        |        | - viewing_angle: int
+| - volume: int     |        | - backlight: str
+---------------------        | - display_details: str
+| + _init_(brand: str) |   ---------------------
+| + increase_volume()     |
+| + decrease_volume()     |
+| + set_channel(channel: int) |
+| + reset_tv()            |
+| + status() -> str       |
+---------------------
+              ^
+              |
+              |
+---------------------
+|     PlasmaTV      |
+---------------------
+| - screen_thickness: int
+| - energy_usage: int
+| - lifespan: int
+| - refresh_rate: int
+| - viewing_angle: int
+| - backlight: str
+| - display_details: str
+---------------------
